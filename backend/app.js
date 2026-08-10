@@ -15,4 +15,7 @@ app.get('/api/health', async (req, res) => {
   }
 });
 
+app.use('/api/produits', require('./app/routes/produits.routes'));
+app.use('/api/commandes', require('./app/routes/commandes.routes'));
+
 module.exports = app;
