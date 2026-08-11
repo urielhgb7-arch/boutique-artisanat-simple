@@ -4,6 +4,8 @@ node_modules/
 # Variables d'environnement (jamais committées — contiennent DATABASE_URL, SECRET_KEY, etc.)
 .env
 .env.local
+.env.production
+
 
 # Build frontend
 dist/
